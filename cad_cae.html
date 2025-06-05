@@ -1,0 +1,1063 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="vi" class="scroll-smooth"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Infographic &amp; Phân Tích: Định Hướng Nghề Nghiệp và Thị Trường CAD/CAE Việt Nam&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Chosen Palette: "Bright Blue &amp; Red" base with Rainbow Accents for H2. Background: #F8F9FA. Text: #212529. H2 Text &amp; Underline: Rainbow. Other Accents (Blue): #0D6EFD; (Red): #DC3545. Card Background: rgba(255, 255, 255, 0.75). --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.jsdelivr.net/npm/chart.js"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Be Vietnam Pro', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #F8F9FA;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #212529;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Global glass-card style from original document */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.glass-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255, 255, 255, 0.75);<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>backdrop-filter: blur(10px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-backdrop-filter: blur(10px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid rgba(0, 0, 0, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.17);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: transform 0.3s ease, box-shadow 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.glass-card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-5px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 12px 38px 0 rgba(31, 38, 135, 0.22);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Styles for the new chart cards specifically in the career-salary section FROM USER'S NEW CODE */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#career-salary .container .grid &gt; div.glass-card.chart-specific-card { /* Added .chart-specific-card to ensure specificity */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255, 255, 255, 0.1);<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>backdrop-filter: blur(10px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-backdrop-filter: blur(10px);<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid rgba(255, 255, 255, 0.2);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#career-salary .container .grid &gt; div.glass-card.chart-specific-card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-5px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 20px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* For the accent border on these specific cards FROM USER'S NEW CODE */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#career-salary .container .grid &gt; div.glass-card.accent-border-card.chart-specific-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-top: 1px solid rgba(255, 255, 255, 0.2);<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-bottom: 1px solid rgba(255, 255, 255, 0.2);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-left-width: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-right-width: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* For the accent colors on borders of these specific cards FROM USER'S NEW CODE */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#career-salary .container .grid &gt; div.glass-card.accent-border-card.accent-blue.chart-specific-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-left-color: #3b82f6;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-right-color: #3b82f6;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#career-salary .container .grid &gt; div.glass-card.accent-border-card.accent-red.chart-specific-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-left-color: #ef4444;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-right-color: #ef4444;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Title colors for these specific cards FROM USER'S NEW CODE */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#career-salary .container .grid &gt; div.glass-card.chart-specific-card h3.accent-blue {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #3b82f6;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#career-salary .container .grid &gt; div.glass-card.chart-specific-card h3.accent-red {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #ef4444;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* End of specific styles for new chart cards */</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.chart-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 600px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-left: auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-right: auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 300px;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-height: 350px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (min-width: 768px) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.chart-container {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>height: 350px;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>max-height: 400px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero-gradient-text {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(90deg, #0D6EFD, #DC3545);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-background-clip: text;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-text-fill-color: transparent;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Original accent-blue and accent-red for general use */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.accent-blue { color: #0D6EFD; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.accent-red { color: #DC3545; }</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.rainbow-text-dynamic {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(90deg, #FF5733, #FF9100, #FFD600, #32CD32, #1E90FF, #6A0DAD, #C71585);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-background-clip: text;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-text-fill-color: transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: rainbow-text-flow 10s linear infinite;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-size: 200% 200%;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes rainbow-text-flow {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>0% { background-position: 0% 50%; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>50% { background-position: 100% 50%; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>100% { background-position: 0% 50%; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline::before {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: ''; position: absolute; left: 50%; transform: translateX(-50%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 0; bottom: 0; width: 3px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(to bottom, #0D6EFD, #DC3545, #F8F9FA);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-item-container { position: relative; width: 100%; display: flex; justify-content: center; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-item { position: relative; width: calc(50% - 1.5rem); margin-bottom: 2.5rem; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-item:nth-child(odd) { margin-right: 3rem; align-self: flex-start; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-item:nth-child(even) { margin-left: 3rem; align-self: flex-end; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-item:nth-child(odd) .timeline-content::after { content: ""; position: absolute; right: -12px; top: 20px; border-top: 12px solid transparent; border-bottom: 12px solid transparent; border-left: 12px solid rgba(255, 255, 255, 0.75); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-item:nth-child(even) .timeline-content::before { content: ""; position: absolute; left: -12px; top: 20px; border-top: 12px solid transparent; border-bottom: 12px solid transparent; border-right: 12px solid rgba(255, 255, 255, 0.75); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-dot { position: absolute; top: 1.25rem; left: 50%; transform: translateX(-50%); width: 1.5rem; height: 1.5rem; border-radius: 50%; border: 4px solid #F8F9FA; z-index: 10; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-item:nth-child(odd) .timeline-dot { background-color: #0D6EFD; box-shadow: 0 0 10px #0D6EFD; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-item:nth-child(even) .timeline-dot { background-color: #DC3545; box-shadow: 0 0 10px #DC3545; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">         </span>@media (max-width: 767px) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.timeline::before { left: 0.75rem; transform: translateX(0); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.timeline-item-container { justify-content: flex-start; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.timeline-item { width: calc(100% - 2.5rem); padding-left: 2rem; margin-left: 0; margin-right:0; align-self: auto !important; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.timeline-item:nth-child(odd) { margin-right: 0; } .timeline-item:nth-child(even) { margin-left: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.timeline-dot { left: 0.0rem; transform: translateX(0); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.timeline-item .timeline-content::before, .timeline-item .timeline-content::after { display:none; }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.timeline-item:nth-child(odd) .timeline-content::before, .timeline-item:nth-child(even) .timeline-content::before { display:block; left: -12px; right:auto; border-left:none; border-right: 12px solid rgba(255, 255, 255, 0.75); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.nav-active {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #0D6EFD !important;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-bottom: 2px solid #0D6EFD;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.process-step {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 2px solid transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.process-step:hover { transform: translateY(-6px) scale(1.03); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.process-step-1 { border-color: rgba(13, 110, 253, 0.4); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.process-step-1:hover { box-shadow: 0 0 20px rgba(13, 110, 253, 0.3); border-color: #0D6EFD;}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.process-step-2 { border-color: rgba(220, 53, 69, 0.4); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.process-step-2:hover { box-shadow: 0 0 20px rgba(220, 53, 69, 0.3); border-color: #DC3545;}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.process-step-3 { border-color: rgba(13, 110, 253, 0.4); }<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.process-step-3:hover { box-shadow: 0 0 20px rgba(13, 110, 253, 0.3); border-color: #0D6EFD;}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.arrow-connector { font-size: 3rem; line-height: 1; opacity: 0.8; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.arrow-1 { color: #0D6EFD; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.arrow-2 { color: #DC3545; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.section-title {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative; padding-bottom: 0.75rem; margin-bottom: 2.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.section-title::after {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: ''; position: absolute; left: 50%; transform: translateX(-50%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bottom: 0; height: 3px; width: 80px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(90deg, #FF5733, #FF9100, #FFD600, #32CD32, #1E90FF, #6A0DAD, #C71585); /* Rainbow underline */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Original accent-border-card for general use */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.accent-border-card { border: 1px solid rgba(0,0,0,0.1); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.accent-border-card:hover { border: 1px solid #0D6EFD; } /* Original hover behavior */</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.header-sticky {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(248, 249, 250, 0.85);<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 2px 4px rgba(0,0,0,0.05);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.skill-image {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 100%; height: auto; border-radius: 0.5rem;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 1rem; margin-bottom: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 4px 12px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.modal-overlay {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: fixed; top: 0; left: 0; right: 0; bottom: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(0, 0, 0, 0.6);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex; align-items: center; justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 1000; opacity: 0; visibility: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: opacity 0.3s ease, visibility 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.modal-overlay.visible { opacity: 1; visibility: visible; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.modal-content {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: white; color: #212529;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 2rem; border-radius: 0.75rem; /* 12px */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 90%; max-width: 600px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(0.95);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: transform 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.modal-overlay.visible .modal-content { transform: scale(1); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.modal-content h4 { color: #0D6EFD; }<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.modal-content .btn-primary {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #0D6EFD; color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0.75rem 1.5rem; border-radius: 0.5rem; text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600; transition: background-color 0.3s ease; display: block;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.modal-content .btn-primary:hover { background-color: #0B5ED7; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.salary-factor-button {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #0D6EFD; color: #0D6EFD;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0.5rem 1rem; border-radius: 9999px; /* pill shape */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.875rem; /* text-sm */ font-weight: 500; /* medium */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.15s ease-in-out;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.salary-factor-button:hover {</p>
+<p class="p1"><span class="Apple-converted-space">             </span>background-color: rgba(13, 110, 253, 0.1); /* Light blue hover */</p>
+<p class="p1"><span class="Apple-converted-space">             </span>color: #0B5ED7;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.salary-factor-button.active { /* Class for active/selected button */</p>
+<p class="p1"><span class="Apple-converted-space">             </span>background-color: #0D6EFD; color: white;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#salary-factors-info {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 1rem; background-color: rgba(13, 110, 253, 0.05);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 0.5rem; text-align: center; color: #212529;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>min-height: 70px; display: flex; align-items: center; justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px dashed rgba(13, 110, 253, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: background-color 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.company-logo-container {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex; justify-content: center; align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 1rem; border-radius: 0.5rem;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255, 255, 255, 0.6); /* Slightly less transparent glass */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid rgba(0,0,0,0.05);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>min-height: 80px; /* Ensure consistent height */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.company-logo-container:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-3px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 6px 20px rgba(31, 38, 135, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(255, 255, 255, 0.85);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.company-logo-container img {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-height: 4rem; /* 64px */<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: auto; /* Maintain aspect ratio */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 100%; /* Prevent overflow */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>object-fit: contain;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.career-path-step {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex; align-items: flex-start; margin-bottom: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.career-path-step-circle {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 3rem; height: 3rem; border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex; align-items: center; justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold; font-size: 1.25rem; margin-right: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-shrink: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 2px 8px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.step-circle-1 { background-color: rgba(13, 110, 253, 0.15); border: 2px solid #0D6EFD; color: #0D6EFD; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.step-circle-2 { background-color: rgba(220, 53, 69, 0.15); border: 2px solid #DC3545; color: #DC3545; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.step-circle-3 { background-color: rgba(25, 135, 84, 0.15); border: 2px solid #198754; color: #198754; }<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.career-path-step-content h5 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.career-path-step-content p {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1rem; color: #334155; /* Tailwind slate-700 */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="antialiased"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;header class="fixed top-0 left-0 right-0 z-50 header-sticky"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;nav class="container mx-auto px-4 sm:px-6 py-2.5"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex justify-between items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#hero" class="text-xl md:text-2xl font-extrabold hero-gradient-text"&gt;Định Hướng &amp; Thị Trường CAD/CAE&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button id="mobileMenuButton" class="md:hidden p-2 rounded-md text-gray-600 hover:text-blue-600 focus:outline-none"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="sr-only"&gt;Mở menu chính&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span id="menuIconOpen" class="block h-7 w-7"&gt;☰&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span id="menuIconClose" class="hidden h-7 w-7"&gt;✕&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div id="mainNav" class="hidden md:flex space-x-1 text-xs lg:text-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#hero" class="nav-item px-2 lg:px-3 py-2 rounded-md text-gray-700 hover:text-blue-600 transition-colors"&gt;Mở Đầu&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#market-overview" class="nav-item px-2 lg:px-3 py-2 rounded-md text-gray-700 hover:text-blue-600 transition-colors"&gt;Thị Trường&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#process" class="nav-item px-2 lg:px-3 py-2 rounded-md text-gray-700 hover:text-blue-600 transition-colors"&gt;Quy Trình&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#job-opportunities" class="nav-item px-2 lg:px-3 py-2 rounded-md text-gray-700 hover:text-blue-600 transition-colors"&gt;Việc Làm&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#pathways-skills" class="nav-item px-2 lg:px-3 py-2 rounded-md text-gray-700 hover:text-blue-600 transition-colors"&gt;Lộ Trình&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#career-salary" class="nav-item px-2 lg:px-3 py-2 rounded-md text-gray-700 hover:text-blue-600 transition-colors"&gt;Lương&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#future-trends" class="nav-item px-2 lg:px-3 py-2 rounded-md text-gray-700 hover:text-blue-600 transition-colors"&gt;Tương Lai&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#advice" class="nav-item px-2 lg:px-3 py-2 rounded-md text-gray-700 hover:text-blue-600 transition-colors"&gt;Lời Khuyên&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div id="mobileMenu" class="md:hidden hidden mt-2 space-y-1 px-2 pt-2 pb-3 bg-white rounded-md shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;a href="#hero" class="nav-item block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-blue-600"&gt;Mở Đầu&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;a href="#market-overview" class="nav-item block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-blue-600"&gt;Tổng Quan Thị Trường&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;a href="#process" class="nav-item block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-blue-600"&gt;Quy Trình&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;a href="#job-opportunities" class="nav-item block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-blue-600"&gt;Cơ Hội Việc Làm&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;a href="#pathways-skills" class="nav-item block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-blue-600"&gt;Lộ Trình &amp; Kỹ Năng&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;a href="#career-salary" class="nav-item block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-blue-600"&gt;Sự Nghiệp &amp; Lương&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;a href="#future-trends" class="nav-item block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-blue-600"&gt;Tương Lai&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;a href="#advice" class="nav-item block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100 hover:text-blue-600"&gt;Lời Khuyên&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;main class="pt-20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="hero" class="text-center py-20 md:py-28 px-4 sm:px-6 bg-gradient-to-b from-sky-50 via-slate-50 to-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1 class="text-5xl sm:text-6xl md:text-7xl font-extrabold mb-8 hero-gradient-text"&gt;KỸ SƯ CAD/CAE &amp; THỊ TRƯỜNG VIỆT NAM&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-slate-800"&gt;LỘ TRÌNH CHUYÊN SÂU, CƠ HỘI &amp; &lt;span class="text-blue-600"&gt;XU HƯỚNG 2025+&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-lg md:text-xl max-w-3xl mx-auto text-slate-600 mb-2"&gt;Tư vấn từ &lt;span class="font-semibold text-blue-600"&gt;TS. Phạm Đình Nguyện&lt;/span&gt; và tổng hợp phân tích thị trường.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-lg md:text-xl max-w-3xl mx-auto text-slate-700 mb-10"&gt;Khám phá lộ trình chi tiết, kỹ năng cần thiết, cơ hội việc làm, mức lương và các xu hướng định hình ngành CAD/CAE tại Việt Nam.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white/70 backdrop-blur-sm p-6 rounded-xl border border-gray-200/50 shadow-md hover:shadow-lg transition-shadow duration-300"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-3xl font-bold accent-blue"&gt;50,000+&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-slate-600 mt-1 text-sm"&gt;Kỹ sư ô tô cần vào 2030&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;div class="bg-white/70 backdrop-blur-sm p-6 rounded-xl border border-gray-200/50 shadow-md hover:shadow-lg transition-shadow duration-300"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-3xl font-bold accent-red"&gt;&gt;50 Tr/tháng&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-slate-600 mt-1 text-sm"&gt;Lương chuyên gia xe điện&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white/70 backdrop-blur-sm p-6 rounded-xl border border-gray-200/50 shadow-md hover:shadow-lg transition-shadow duration-300 sm:col-span-2 md:col-span-1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-3xl font-bold text-green-600"&gt;Top 2 Ngành&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-slate-600 mt-1 text-sm"&gt;Dẫn đầu nhu cầu: Ô tô &amp; Cơ khí&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#market-overview" class="text-xl font-semibold py-4 px-10 rounded-lg transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-xl bg-gradient-to-r from-blue-600 to-red-500 hover:from-blue-500 hover:to-red-400 text-white"&gt;Khám Phá Ngay ✨&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="market-overview" class="container mx-auto px-4 sm:px-6 py-16 md:py-24 scroll-mt-20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-4xl md:text-5xl font-bold text-center section-title rainbow-text-dynamic"&gt;Tổng Quan Ngành &amp; Thị Trường CAD/CAE&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-center max-w-3xl mx-auto text-slate-600 mb-10"&gt;CAD/CAE là nền tảng không thể thiếu trong Công nghiệp 4.0, giúp biến ý tưởng thành sản phẩm đột phá. Thị trường Việt Nam đang phát triển mạnh mẽ, được thúc đẩy bởi sự tăng trưởng của các ngành công nghiệp mũi nhọn và làn sóng chuyển đổi số.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-2 gap-10 mb-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="glass-card rounded-xl p-8 text-center accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-7xl mb-5 accent-blue"&gt;📐&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-3xl font-bold mb-4 accent-blue"&gt;CAD: Hiện Thực Hóa Ý Tưởng&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-slate-700 text-lg"&gt;Tạo mô hình số 2D/3D chi tiết, là nền tảng cho mọi sản phẩm kỹ thuật.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="glass-card rounded-xl p-8 text-center accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-7xl mb-5 accent-red"&gt;🔬&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-3xl font-bold mb-4 accent-red"&gt;CAE: "Thử Nghiệm Ảo" Đột Phá&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-slate-700 text-lg"&gt;Phân tích, đánh giá, tối ưu hóa thiết kế trên máy tính trước khi sản xuất.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid grid-cols-1 lg:grid-cols-2 gap-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="glass-card rounded-xl p-8 accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="text-2xl font-semibold mb-6 text-center accent-blue"&gt;Các ngành Ứng dụng Chủ chốt tại Việt Nam&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="space-y-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex items-start space-x-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="text-4xl mt-1"&gt;🚗&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h5 class="font-bold text-xl text-slate-800"&gt;Kỹ thuật Ô tô&lt;/h5&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-sm text-slate-600"&gt;Lĩnh vực tiên phong, ứng dụng sâu rộng từ thiết kế, mô phỏng va chạm, khí động học đến phát triển xe điện và xe tự lái.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex items-start space-x-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="text-4xl mt-1"&gt;⚙️&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h5 class="font-bold text-xl text-slate-800"&gt;Cơ khí Chế tạo&lt;/h5&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-sm text-slate-600"&gt;Thiết kế máy móc, khuôn mẫu, đồ gá chính xác. CAE giúp tối ưu độ bền, vật liệu và dự đoán lỗi sản xuất.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex items-start space-x-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                           </span>&lt;span class="text-4xl mt-1"&gt;🏗️&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h5 class="font-bold text-xl text-slate-800"&gt;Xây dựng &amp; Kiến trúc&lt;/h5&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-sm text-slate-600"&gt;Ứng dụng BIM (Mô hình Thông tin Công trình) để thiết kế, quản lý và thi công hiệu quả hơn.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="glass-card rounded-xl p-8 accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="text-2xl font-semibold mb-6 text-center accent-red"&gt;Các Phần mềm Phổ biến&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-center text-slate-600 mb-6"&gt;Hệ sinh thái phần mềm đa dạng từ các hãng công nghệ lớn trên thế giới là công cụ làm việc chính của các kỹ sư.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="grid grid-cols-3 sm:grid-cols-4 gap-4 place-items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://placehold.co/100x50/F0F0F0/4A4A4A?text=SolidWorks&amp;font=sans" alt="SolidWorks Logo" class="h-10 object-contain" title="SolidWorks"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://placehold.co/100x50/F0F0F0/4A4A4A?text=AutoCAD&amp;font=sans" alt="AutoCAD Logo" class="h-10 object-contain" title="AutoCAD"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://placehold.co/100x50/F0F0F0/4A4A4A?text=CATIA&amp;font=sans" alt="CATIA Logo" class="h-10 object-contain" title="CATIA"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://placehold.co/100x50/F0F0F0/4A4A4A?text=Siemens+NX&amp;font=sans" alt="Siemens NX Logo" class="h-10 object-contain" title="Siemens NX"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://placehold.co/100x50/F0F0F0/4A4A4A?text=ANSYS&amp;font=sans" alt="ANSYS Logo" class="h-10 object-contain" title="ANSYS"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://placehold.co/100x50/F0F0F0/4A4A4A?text=HyperWorks&amp;font=sans" alt="HyperWorks Logo" class="h-10 object-contain" title="HyperWorks"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://placehold.co/100x50/F0F0F0/4A4A4A?text=Creo&amp;font=sans" alt="Creo Logo" class="h-10 object-contain" title="Creo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="https://placehold.co/100x50/F0F0F0/4A4A4A?text=Fusion+360&amp;font=sans" alt="Fusion 360 Logo" class="h-10 object-contain" title="Fusion 360"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="process" class="container mx-auto px-4 sm:px-6 py-16 md:py-24 scroll-mt-20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-4xl md:text-5xl font-bold text-center section-title rainbow-text-dynamic"&gt;Quy Trình Phát Triển Sản Phẩm Tích Hợp&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-center max-w-3xl mx-auto text-slate-600 mb-16"&gt;Một luồng công việc liền mạch, kết nối các giai đoạn quan trọng, giúp tối ưu hóa toàn bộ chu trình phát triển sản phẩm.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex flex-col md:flex-row justify-center items-center md:items-stretch space-y-10 md:space-y-0 md:space-x-6 lg:space-x-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="process-step process-step-1 glass-card rounded-2xl p-8 w-full md:w-1/3 text-center flex flex-col items-center justify-start"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-6xl mb-4 accent-blue"&gt;✏️&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-2xl font-semibold mb-3 accent-blue"&gt;1. Thiết Kế (CAD)&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-md text-slate-700"&gt;Tạo dựng mô hình số 2D/3D chi tiết. &lt;br/&gt;&lt;span class="text-xs text-slate-500"&gt;(VD: SolidWorks, CATIA)&lt;/span&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="arrow-connector arrow-1 hidden md:flex items-center justify-center transform md:rotate-0 rotate-90 px-3"&gt;➔&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="arrow-connector arrow-1 flex md:hidden items-center justify-center transform md:rotate-0 rotate-90 py-3"&gt;⬇&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="process-step process-step-2 glass-card rounded-2xl p-8 w-full md:w-1/3 text-center flex flex-col items-center justify-start"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-6xl mb-4 accent-red"&gt;💡&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-2xl font-semibold mb-3 accent-red"&gt;2. Mô Phỏng (CAE)&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-md text-slate-700"&gt;Phân tích, "thử nghiệm ảo" (FEA, CFD). &lt;br/&gt;&lt;span class="text-xs text-slate-500"&gt;(VD: Abaqus, ANSYS)&lt;/span&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="arrow-connector arrow-2 hidden md:flex items-center justify-center transform md:rotate-0 rotate-90 px-3"&gt;➔&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="arrow-connector arrow-2 flex md:hidden items-center justify-center transform md:rotate-0 rotate-90 py-3"&gt;⬇&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="process-step process-step-3 glass-card rounded-2xl p-8 w-full md:w-1/3 text-center flex flex-col items-center justify-start"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-6xl mb-4" style="color:#0D6EFD;"&gt;⚙️&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-2xl font-semibold mb-3" style="color:#0D6EFD;"&gt;3. Tối Ưu Hóa&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-md text-slate-700"&gt;Tinh chỉnh thiết kế để đạt hiệu suất cao nhất. &lt;br/&gt;&lt;span class="text-xs text-slate-500"&gt;(VD: Isight, Tosca)&lt;/span&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="job-opportunities" class="container mx-auto px-4 sm:px-6 py-16 md:py-24 scroll-mt-20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-4xl md:text-5xl font-bold text-center section-title rainbow-text-dynamic"&gt;Cơ Hội Việc Làm Tại Việt Nam&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-center max-w-3xl mx-auto text-slate-600 mb-16"&gt;Nhu cầu nhân lực chất lượng cao đang rất lớn tại các tập đoàn trong nước và công ty FDI. Khám phá một số nhà tuyển dụng tiêu biểu và yêu cầu của họ.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6 text-center" id="company-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Company logos will be populated by JavaScript. --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="self-discovery" class="container mx-auto px-4 sm:px-6 py-16 md:py-24 scroll-mt-20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-4xl md:text-5xl font-bold text-center section-title rainbow-text-dynamic"&gt;Khám Phá Bản Thân&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-center max-w-2xl mx-auto text-slate-600 mb-12"&gt;Hiểu rõ bản thân là bước đầu tiên để lựa chọn đúng đắn hướng đi sự nghiệp.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="glass-card rounded-xl p-8 md:p-10 max-w-3xl mx-auto accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3 class="text-2xl font-semibold mb-6 text-center text-slate-800"&gt;Những Câu Hỏi Định Hướng Quan Trọng:&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;ul class="space-y-4 text-slate-700 text-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li class="flex items-start"&gt;&lt;span class="mr-3 mt-1 accent-blue"&gt;🎯&lt;/span&gt;Sở thích của bạn là gì: Thiên về tạo hình, dựng mô hình hay phân tích, tính toán và giải quyết vấn đề?&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li class="flex items-start"&gt;&lt;span class="mr-3 mt-1 accent-red"&gt;💪&lt;/span&gt;Năng lực cốt lõi: Bạn mạnh về tư duy logic, không gian, hay có khả năng tập trung chi tiết cao?&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li class="flex items-start"&gt;&lt;span class="mr-3 mt-1 accent-blue"&gt;🌟&lt;/span&gt;Giá trị nghề nghiệp: Bạn tìm kiếm điều gì ở một công việc? Sự ổn định, cơ hội học hỏi, hay mức lương cao?&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li class="flex items-start"&gt;&lt;span class="mr-3 mt-1 accent-red"&gt;🔗&lt;/span&gt;Mối quan hệ CAD/CAE: Bạn có hiểu rõ vai trò và sự phối hợp giữa Thiết kế và Phân tích trong quy trình phát triển sản phẩm?&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;li class="flex items-start"&gt;&lt;span class="mr-3 mt-1 accent-blue"&gt;📈&lt;/span&gt;Xu hướng ngành: Bạn có cập nhật về các công nghệ mới và hướng phát triển của ngành CAD/CAE không?&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="pathways-skills" class="container mx-auto px-4 sm:px-6 py-16 md:py-24 scroll-mt-20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-4xl md:text-5xl font-bold text-center section-title rainbow-text-dynamic"&gt;Lộ Trình Kiến Thức, Kỹ Năng &amp; Sự Nghiệp&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-center max-w-2xl mx-auto text-slate-600 mb-16"&gt;Nền tảng cơ khí vững chắc là tiên quyết. Thành công đòi hỏi sự kết hợp giữa kiến thức, kỹ năng thực hành và lộ trình phát triển rõ ràng.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="glass-card rounded-xl p-8 md:p-10 mb-16 accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;h3 class="text-2xl md:text-3xl font-bold text-center mb-8 text-slate-800"&gt;Lộ trình Phát triển Sự nghiệp Gợi ý&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;div class="max-w-3xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="career-path-step"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="career-path-step-circle step-circle-1"&gt;1&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="career-path-step-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h5 class="accent-blue"&gt;Xây dựng Nền tảng (3-5 năm đầu)&lt;/h5&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p&gt;Bắt đầu tại các công ty lớn (VD: FPT Software, NATV, các doanh nghiệp FDI) để được đào tạo bài bản về quy trình và công cụ. Tập trung học hỏi, chấp nhận thử thách và trau dồi ngoại ngữ (đặc biệt là tiếng Anh).&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;div class="career-path-step"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="career-path-step-circle step-circle-2"&gt;2&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;div class="career-path-step-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;h5 class="accent-red"&gt;Đánh giá &amp; Lựa chọn Hướng Chuyên sâu&lt;/h5&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;p&gt;Sau giai đoạn nền tảng, đánh giá lại điểm mạnh và sở thích. Xác định hướng đi: trở thành chuyên gia kỹ thuật sâu (Technical Expert) trong một lĩnh vực CAD hoặc CAE cụ thể, hoặc phát triển theo hướng quản lý dự án/đội nhóm (Team Leader/Project Manager).&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;div class="career-path-step"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="career-path-step-circle step-circle-3"&gt;3&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;div class="career-path-step-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h5 style="color: #198754;"&gt;Chuyên môn hóa &amp; Không ngừng Cập nhật&lt;/h5&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;p&gt;Liên tục học hỏi công nghệ mới (AI, Generative Design, Mô phỏng đa vật lý, Digital Twin). Làm chủ một lĩnh vực hẹp, đạt các chứng chỉ quốc tế (nếu có) để trở thành chuyên gia được săn đón.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid lg:grid-cols-2 gap-12 mb-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex flex-col"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-3xl font-bold mb-8 text-center lg:text-left accent-blue"&gt;Lộ Trình Kỹ Sư Thiết Kế CAD&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="glass-card rounded-xl p-8 flex-grow mb-8 accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4 class="font-semibold text-xl mb-4 text-slate-800"&gt;Kiến Thức Nền Tảng Chính&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;ul class="list-none space-y-3 text-slate-700"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center"&gt;&lt;span class="text-xl mr-3 text-sky-600"&gt;❖&lt;/span&gt;Hình họa Kỹ thuật, Vẽ Kỹ thuật, Các Tiêu chuẩn Thiết kế (ISO, ASME, JIS...)&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center"&gt;&lt;span class="text-xl mr-3 text-sky-600"&gt;❖&lt;/span&gt;Dung sai &amp; Lắp ghép (GD&amp;T - Geometric Dimensioning and Tolerancing)&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center"&gt;&lt;span class="text-xl mr-3 text-sky-600"&gt;❖&lt;/span&gt;Vật liệu Kỹ thuật &amp; Các Công nghệ Chế tạo (Gia công, Đúc, Hàn...)&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center"&gt;&lt;span class="text-xl mr-3 text-sky-600"&gt;❖&lt;/span&gt;Nguyên lý máy, Chi tiết máy, Thiết kế sản phẩm Cơ khí&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="glass-card rounded-xl p-8 flex-grow accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4 class="font-semibold text-xl mb-4 text-slate-800"&gt;Phần Mềm &amp; Kỹ Năng Chính&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="image_d68c6b.png" alt="Biểu đồ thị phần phần mềm CAD" class="skill-image" onerror="this.alt='Hình ảnh biểu đồ CAD'; this.src='https://www.3ds.com/assets/invest/styles/banner_small/public/2024-06/catia-mechanical-designer-cad-design.png.webp?itok=1aPyyPI4$0?itok=v1O3NF-j$0?text=Biểu+đồ+CAD+Software';"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;ul class="list-none space-y-3 text-slate-700 mt-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center"&gt;&lt;span class="text-xl mr-3 text-sky-600"&gt;🔧&lt;/span&gt;&lt;strong&gt;2D CAD:&lt;/strong&gt; AutoCAD, DraftSight&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center"&gt;&lt;span class="text-xl mr-3 text-sky-600"&gt;🔧&lt;/span&gt;&lt;strong&gt;3D CAD:&lt;/strong&gt; SolidWorks, Inventor, Siemens NX, CATIA, Creo&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center"&gt;&lt;span class="text-xl mr-3 text-sky-600"&gt;✨&lt;/span&gt;&lt;strong&gt;Kỹ năng:&lt;/strong&gt; Part Modeling, Assembly Design, Detailing &amp; Drafting, Surface Modeling, Sheet Metal Design, P&amp;ID (cho quy trình).&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex flex-col"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-3xl font-bold mb-8 text-center lg:text-left accent-red"&gt;Lộ Trình Kỹ Sư Phân Tích CAE&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="glass-card rounded-xl p-8 flex-grow mb-8 accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4 class="font-semibold text-xl mb-4 text-slate-800"&gt;Kiến Thức Nền Tảng Chính&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;ul class="list-none space-y-3 text-slate-700"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center"&gt;&lt;span class="text-xl mr-3 text-red-600"&gt;❖&lt;/span&gt;Cơ học Kỹ thuật Nâng cao (Sức bền Vật liệu, Cơ học Kết cấu, Cơ học Lưu chất, Truyền nhiệt)&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center"&gt;&lt;span class="text-xl mr-3 text-red-600"&gt;❖&lt;/span&gt;Phương pháp Phần tử Hữu hạn (FEM/FEA - Finite Element Method/Analysis)&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center"&gt;&lt;span class="text-xl mr-3 text-red-600"&gt;❖&lt;/span&gt;Động lực học Tính toán Lưu chất (CFD - Computational Fluid Dynamics)&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center"&gt;&lt;span class="text-xl mr-3 text-red-600"&gt;❖&lt;/span&gt;Vật liệu học (chuyên sâu về tính chất cơ lý, phá hủy), Dao động Kỹ thuật, Lập trình ứng dụng (Python, MATLAB).&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>&lt;div class="glass-card rounded-xl p-8 flex-grow accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4 class="font-semibold text-xl mb-4 text-slate-800"&gt;Phần Mềm &amp; Kỹ Năng Chính&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;img src="image_d68c91.jpg" alt="Sơ đồ hệ sinh thái phần mềm kỹ thuật" class="skill-image" onerror="this.alt='Hình ảnh biểu đồ CAE'; this.src='https://www.3ds.com/assets/invest/styles/banner/public/2024-09/heavy-machinery-min.png.webp?itok=tY2ZDSzy$0?text=Biểu+đồ+CAE+Software';"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;ul class="list-none space-y-3 text-slate-700 mt-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center"&gt;&lt;span class="text-xl mr-3 text-red-600"&gt;⚙️&lt;/span&gt;&lt;strong&gt;Pre/Post-Processing:&lt;/strong&gt; HyperMesh, ANSA, SimLab, MSC Apex&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center"&gt;&lt;span class="text-xl mr-3 text-red-600"&gt;⚙️&lt;/span&gt;&lt;strong&gt;Solvers:&lt;/strong&gt; ANSYS (Mechanical, Fluent, CFX), Abaqus, Nastran, LS-DYNA, OpenFOAM&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center"&gt;&lt;span class="text-xl mr-3 text-red-600"&gt;💻&lt;/span&gt;&lt;strong&gt;Kỹ năng:&lt;/strong&gt; Meshing (Chia lưới), Boundary Conditions (Điều kiện biên), Model Validation &amp; Verification (V&amp;V), Results Interpretation (Diễn giải kết quả), Scripting &amp; Automation.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-2 gap-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="glass-card rounded-xl p-8 accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-2xl font-semibold mb-4 accent-blue"&gt;Kỹ năng Kỹ thuật Cốt lõi&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;ul class="space-y-3 list-disc list-inside text-slate-700"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;b&gt;Kiến thức nền tảng vững chắc:&lt;/b&gt; Sức bền vật liệu, Cơ học kết cấu, Cơ học chất lỏng, Nhiệt động lực học, Phương pháp Phần tử hữu hạn (FEA).&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;b&gt;Thành thạo ít nhất một bộ phần mềm CAD phổ biến:&lt;/b&gt; SolidWorks, CATIA, Siemens NX, AutoCAD, Inventor, Creo.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;b&gt;Thành thạo ít nhất một bộ phần mềm CAE chuyên dụng:&lt;/b&gt; ANSYS, HyperWorks, Abaqus, Nastran, Fluent.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;b&gt;Kỹ năng xử lý CAE chuyên sâu:&lt;/b&gt; Tạo lưới (Meshing) chất lượng cao, đặt điều kiện biên chính xác, kiểm tra và xác thực mô hình (V&amp;V), diễn giải kết quả phân tích một cách sâu sắc.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;li&gt;&lt;b&gt;Khả năng lập trình (Scripting):&lt;/b&gt; Python, VBA, APDL (ANSYS) là một lợi thế rất lớn để tự động hóa các tác vụ lặp lại và tùy biến quy trình làm việc.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;div class="glass-card rounded-xl p-8 accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-2xl font-semibold mb-4 accent-red"&gt;Kỹ năng Mềm &amp; Hỗ trợ&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;ul class="space-y-3 list-disc list-inside text-slate-700"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;b&gt;Tư duy logic &amp; Phân tích vấn đề:&lt;/b&gt; Khả năng phân tích các vấn đề kỹ thuật phức tạp, tìm ra nguyên nhân gốc rễ và đề xuất giải pháp tối ưu.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;b&gt;Khả năng tự học &amp; Nghiên cứu:&lt;/b&gt; Chủ động cập nhật công nghệ, phần mềm mới và các phương pháp phân tích tiên tiến liên tục.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;b&gt;Làm việc nhóm &amp; Giao tiếp hiệu quả:&lt;/b&gt; Phối hợp tốt với các kỹ sư thiết kế, kỹ sư sản xuất và các bộ phận khác trong dự án. Trình bày kết quả rõ ràng, súc tích.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;b&gt;Ngoại ngữ (Tiếng Anh/Nhật/Hàn...):&lt;/b&gt; Đặc biệt quan trọng để tiếp cận tài liệu chuyên ngành, làm việc trong môi trường quốc tế và mở rộng cơ hội nghề nghiệp với mức lương cao hơn.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;b&gt;Quản lý thời gian &amp; Chịu áp lực:&lt;/b&gt; Hoàn thành công việc đúng tiến độ, đặc biệt trong các dự án có yêu cầu khắt khe về thời gian.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="career-salary" class="container mx-auto px-4 sm:px-6 py-16 md:py-24 scroll-mt-20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-4xl md:text-5xl font-bold text-center section-title rainbow-text-dynamic"&gt;Xây Dựng Sự Nghiệp &amp; Mức Lương Tham Khảo&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-center max-w-2xl mx-auto text-slate-600 mb-16"&gt;Từ kinh nghiệm thực tế, vị trí tiềm năng đến mức lương tham khảo và các yếu tố ảnh hưởng.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="glass-card rounded-xl p-8 md:p-10 mb-16 accent-border-card"&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3 class="text-2xl md:text-3xl font-bold text-center mb-3 text-slate-800"&gt;💰 Khoảng Lương Thị Trường (Triệu VNĐ/Tháng)&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-md text-center text-slate-500 mb-8"&gt;Mức lương ngành CAD/CAE rất cạnh tranh. Tương tác với biểu đồ và các yếuotoos bên dưới để xem chi tiết.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="chart-container mx-auto" style="max-width: 700px; height: 350px;"&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;canvas id="marketSalaryChart"&gt;&lt;/canvas&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="mt-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="text-xl font-semibold text-center mb-4 text-slate-700"&gt;Các yếu tố chính ảnh hưởng đến thu nhập&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div id="salary-factors-info" class="p-4 rounded-lg text-center min-h-[70px] flex items-center justify-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-slate-600"&gt;Chọn một yếu tố bên dưới để xem giải thích chi tiết.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex flex-wrap justify-center gap-x-4 gap-y-3 mt-4" id="salary-factors-buttons"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;button class="salary-factor-button" data-factor="experience"&gt;Kinh nghiệm &amp; Chuyên môn&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;button class="salary-factor-button" data-factor="company"&gt;Loại hình Công ty &amp; Quy mô&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;button class="salary-factor-button" data-factor="industry"&gt;Ngành nghề &amp; Độ phức tạp Dự án&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;button class="salary-factor-button" data-factor="language"&gt;Ngoại ngữ &amp; Kỹ năng mềm&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="container mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="grid md:grid-cols-2 gap-10 mb-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="glass-card chart-specific-card rounded-xl p-6 sm:p-8 accent-border-card accent-blue"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-2xl md:text-3xl font-bold text-center mb-6 sm:mb-8 accent-blue"&gt;Vị Trí Phổ Biến - Kỹ Sư CAD&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="chart-container" style="height:280px; max-height:300px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;canvas id="cadJobsChart"&gt;&lt;/canvas&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="glass-card chart-specific-card rounded-xl p-6 sm:p-8 accent-border-card accent-red"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-2xl md:text-3xl font-bold text-center mb-6 sm:mb-8 accent-red"&gt;Vị Trí Phổ Biến - Kỹ Sư CAE&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="chart-container" style="height:280px; max-height:300px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;canvas id="caeJobsChart"&gt;&lt;/canvas&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="future-trends" class="container mx-auto px-4 sm:px-6 py-16 md:py-24 scroll-mt-20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;h2 class="text-4xl md:text-5xl font-bold text-center section-title rainbow-text-dynamic"&gt;Tương Lai Ngành &amp; Học Tập Suốt Đời&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;p class="text-center max-w-3xl mx-auto text-slate-600 mb-16"&gt;Công nghệ không ngừng thay đổi. AI, Thiết kế Tạo sinh và các công nghệ mô phỏng tiên tiến sẽ định hình lại cách chúng ta tạo ra sản phẩm, đòi hỏi kỹ sư phải phát triển những kỹ năng mới và không ngừng học hỏi.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">             </span></p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;div class="relative timeline max-w-6xl mx-auto"&gt; &lt;!-- MODIFIED: Changed max-w-5xl to max-w-6xl --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;div class="timeline-item-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="timeline-dot"&gt;&lt;/div&gt; &lt;div class="timeline-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;div class="glass-card rounded-xl p-8 timeline-content accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;h4 class="font-bold text-xl mb-3 accent-blue"&gt;🤖 AI &amp; Học Máy trong CAD/CAE&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;p class="text-slate-700"&gt;AI/ML cách mạng hóa quy trình: tự động hóa tác vụ lặp lại (ví dụ: chia lưới đơn giản), tăng tốc mô phỏng, tối ưu hóa thiết kế dựa trên dữ liệu lớn, đề xuất phương án thiết kế thông minh, và xây dựng mô hình dự đoán (predictive modeling).&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;div class="timeline-item-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="timeline-dot"&gt;&lt;/div&gt; &lt;div class="timeline-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;div class="glass-card rounded-xl p-8 timeline-content accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;h4 class="font-bold text-xl mb-3 accent-red"&gt;🌿 Thiết kế Tạo Sinh (Generative Design)&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;p class="text-slate-700"&gt;Kỹ sư chỉ cần nhập các mục tiêu và ràng buộc thiết kế (ví dụ: tải trọng, vật liệu, không gian cho phép), phần mềm sẽ tự động tạo ra hàng ngàn phương án thiết kế tối ưu về trọng lượng, độ bền, và hiệu suất. Kỹ sư cần có khả năng xác định đúng ràng buộc và đánh giá kết quả.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;div class="timeline-item-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="timeline-dot"&gt;&lt;/div&gt; &lt;div class="timeline-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;div class="glass-card rounded-xl p-8 timeline-content accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;h4 class="font-bold text-xl mb-3 accent-blue"&gt;🔗 Mô phỏng Đa Vật lý &amp; Hệ thống (Multiphysics &amp; System Simulation)&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;p class="text-slate-700"&gt;Phân tích đồng thời các hiện tượng cơ, nhiệt, điện, từ, lỏng... trong cùng một mô hình, cho phép hiểu rõ hơn hành vi tương tác của các hệ thống cơ điện tử phức tạp như xe tự hành, thiết bị y tế, robot công nghiệp (Digital Twin).&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="timeline-item-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="timeline-dot"&gt;&lt;/div&gt; &lt;div class="timeline-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;div class="glass-card rounded-xl p-8 timeline-content accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;h4 class="font-bold text-xl mb-3 accent-red"&gt;👥 Dân Chủ Hóa Mô Phỏng &amp; Chuyên Sâu Hóa Vai Trò&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;p class="text-slate-700"&gt;Các công cụ CAE ngày càng thân thiện hơn, cho phép kỹ sư thiết kế (CAD users) có thể thực hiện các phân tích cơ bản. Đồng thời, vai trò của chuyên gia CAE (CAE specialists) càng trở nên quan trọng cho các bài toán phức tạp, phát triển phương pháp mới, và thực hiện Xác thực &amp; Kiểm định (V&amp;V) mô hình.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>&lt;div class="timeline-item-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="timeline-dot"&gt;&lt;/div&gt; &lt;div class="timeline-item"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;div class="glass-card rounded-xl p-8 timeline-content accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;h4 class="font-bold text-xl mb-3 accent-blue"&gt;📚 Nguồn Học Tập &amp; Phát Triển Liên Tục&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>&lt;p class="text-slate-700"&gt;Tham gia các cộng đồng chuyên ngành (ví dụ: NAFEMS), đọc tạp chí (Develop3D, Machine Design), theo dõi các trang nghiên cứu (ResearchGate), các khóa học trực tuyến (Coursera, edX, Udemy), các nền tảng đào tạo của hãng phần mềm (ANSYS Learning Hub, Siemens Xcelerator Academy), tham gia hội thảo, webinar.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="advice" class="container mx-auto px-4 sm:px-6 py-16 md:py-24 scroll-mt-20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-4xl md:text-5xl font-bold text-center section-title rainbow-text-dynamic"&gt;Lời Khuyên Cuối &amp; Kết Luận&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-center max-w-2xl mx-auto text-slate-600 mb-16"&gt;Đam mê, kiến thức nền tảng vững chắc và sự kiên trì học hỏi là chìa khóa thành công trong lĩnh vực CAD/CAE đầy thử thách nhưng cũng vô cùng thú vị này.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="glass-card rounded-xl p-8 accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-2xl font-semibold mb-4 accent-blue"&gt;Cho Kỹ Sư CAD&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-slate-700 text-lg"&gt;Rèn luyện sự tỉ mỉ, tư duy không gian 3D và óc thẩm mỹ công nghiệp. Luôn hướng tới thiết kế tối ưu cho chế tạo (DFM - Design for Manufacturability) và lắp ráp (DFA - Design for Assembly). Cập nhật liên tục các tiêu chuẩn ngành, công nghệ vật liệu mới và các quy trình sản xuất tiên tiến.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="glass-card rounded-xl p-8 accent-border-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-2xl font-semibold mb-4 accent-red"&gt;Cho Kỹ Sư CAE&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-slate-700 text-lg"&gt;Đào sâu lý thuyết cơ học, vật liệu và các phương pháp số. Làm chủ công cụ mô phỏng nhưng quan trọng hơn là khả năng xây dựng mô hình chính xác, diễn giải kết quả một cách sâu sắc, và đưa ra các giải pháp thiết kế đột phá. Trau dồi kỹ năng trình bày, báo cáo kết quả một cách trực quan và tư duy phản biện.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="mt-16 text-center text-xl text-slate-800 font-semibold"&gt;Sự phối hợp nhịp nhàng giữa &lt;span class="accent-blue font-bold"&gt;CAD (Thiết kế)&lt;/span&gt; &amp; &lt;span class="accent-red font-bold"&gt;CAE (Mô phỏng)&lt;/span&gt; là &lt;span class="hero-gradient-text font-bold"&gt;chìa khóa vàng&lt;/span&gt; cho sự thành công của mọi dự án kỹ thuật đổi mới và sáng tạo. Với sự chuẩn bị kỹ lưỡng và không ngừng nỗ lực, bạn hoàn toàn có thể chinh phục lĩnh vực này!&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/main&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer class="text-center py-12 border-t border-slate-200 mt-16 bg-slate-50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="text-slate-600 text-md"&gt;&amp;copy; &lt;span id="currentYear"&gt;&lt;/span&gt; Định Hướng &amp; Phân Tích Ngành CAD/CAE Việt Nam.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="text-sm text-slate-500 mt-1"&gt;Dựa trên tư vấn của TS. Phạm Đình Nguyện và các nguồn nghiên cứu thị trường&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="modal" class="modal-overlay"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="modal-content" id="modal-content-inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Content will be injected by JavaScript --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.addEventListener('DOMContentLoaded', function() { // MAIN DOMContentLoaded WRAPPER START</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Initialize current year</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const currentYearEl = document.getElementById('currentYear');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (currentYearEl) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>currentYearEl.textContent = new Date().getFullYear();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// --- Mobile Menu Logic ---</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const mobileMenuButton = document.getElementById('mobileMenuButton');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const mobileMenu = document.getElementById('mobileMenu');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const menuIconOpen = document.getElementById('menuIconOpen');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const menuIconClose = document.getElementById('menuIconClose');</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (mobileMenuButton &amp;&amp; mobileMenu &amp;&amp; menuIconOpen &amp;&amp; menuIconClose) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>mobileMenuButton.addEventListener('click', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>mobileMenu.classList.toggle('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>menuIconOpen.classList.toggle('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>menuIconClose.classList.toggle('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// --- Smooth Scroll &amp; Active Nav Link Logic ---</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const allNavLinks = document.querySelectorAll('#mainNav a, #mobileMenu a');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>allNavLinks.forEach(anchor =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>anchor.addEventListener('click', function (e) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const href = this.getAttribute('href');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if (href &amp;&amp; href.startsWith('#')) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>e.preventDefault();</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>const targetId = href;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>const targetElement = document.querySelector(targetId);</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>if (targetElement) {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>const offset = 70;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>const bodyRect = document.body.getBoundingClientRect().top;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>const elementRect = targetElement.getBoundingClientRect().top;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>const elementPosition = elementRect - bodyRect;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>const offsetPosition = elementPosition - offset;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>window.scrollTo({ top: offsetPosition, behavior: 'smooth' });</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>if (mobileMenu &amp;&amp; !mobileMenu.classList.contains('hidden')) {</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>mobileMenu.classList.add('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>if(menuIconOpen &amp;&amp; menuIconClose){</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>menuIconOpen.classList.remove('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>menuIconClose.classList.add('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">                             </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const sections = document.querySelectorAll('main section[id]');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (sections.length &gt; 0) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>window.addEventListener('scroll', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>let current = '';</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>sections.forEach(section =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>const sectionTop = section.offsetTop;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>if (pageYOffset &gt;= (sectionTop - 100)) {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>current = section.getAttribute('id');</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>allNavLinks.forEach(link =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>link.classList.remove('nav-active');</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>const linkHref = link.getAttribute('href');</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>if (linkHref &amp;&amp; linkHref.substring(1) === current) {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>link.classList.add('nav-active');</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if (!current &amp;&amp; window.pageYOffset &lt; sections[0].offsetTop - 100) {</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>allNavLinks.forEach(link =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>const linkHref = link.getAttribute('href');</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>if (linkHref &amp;&amp; (linkHref === '#hero' || linkHref === './#hero')) {</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>link.classList.add('nav-active');</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>link.classList.remove('nav-active');</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>});</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>} else if (!current) {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>const firstNavLink = document.querySelector('#mainNav a[href="#' + sections[0].id + '"], #mobileMenu a[href="#' + sections[0].id + '"]');</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>if(firstNavLink) firstNavLink.classList.add('nav-active');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}, {passive: true});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// --- Chart.js common configurations and helper function ---</p>
+<p class="p1"><span class="Apple-converted-space">            </span>function wrapText(text, maxWidth = 16) {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (typeof text !== 'string' || text.length &lt;= maxWidth) { return text; }</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const words = text.split(' ');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const lines = [];</p>
+<p class="p1"><span class="Apple-converted-space">                </span>let currentLine = words[0];</p>
+<p class="p1"><span class="Apple-converted-space">                </span>for (let i = 1; i &lt; words.length; i++) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const word = words[i];</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if ((currentLine + ' ' + word).length &gt; maxWidth &amp;&amp; currentLine.length &gt; 0) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>lines.push(currentLine); currentLine = word;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>currentLine += (currentLine.length &gt; 0 ? ' ' : '') + word;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>lines.push(currentLine); return lines;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const chartColors = { // Defined chartColors from original script</p>
+<p class="p1"><span class="Apple-converted-space">                </span>blue: '#0D6EFD',</p>
+<p class="p1"><span class="Apple-converted-space">                </span>red: '#DC3545',</p>
+<p class="p1"><span class="Apple-converted-space">                </span>lightBlue: '#60A5FA',</p>
+<p class="p1"><span class="Apple-converted-space">                </span>lightRed: '#F87171',</p>
+<p class="p1"><span class="Apple-converted-space">                </span>textDark: '#212529',</p>
+<p class="p1"><span class="Apple-converted-space">                </span>gridLight: 'rgba(33, 37, 41, 0.1)',</p>
+<p class="p1"><span class="Apple-converted-space">                </span>fontFamily: "'Be Vietnam Pro', sans-serif"</p>
+<p class="p1"><span class="Apple-converted-space">            </span>};</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Set Chart.js defaults using original chartColors</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Chart.defaults.font.family = chartColors.fontFamily;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Chart.defaults.plugins.legend.labels.color = chartColors.textDark;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const commonChartOptionsPage1 = {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>responsive: true, maintainAspectRatio: false,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>plugins: {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>legend: {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>labels: { color: chartColors.textDark, font: { size: 11 }, usePointStyle: true, boxWidth: 8 },<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>position: 'bottom'<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>tooltip: {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>backgroundColor: 'rgba(255, 255, 255, 0.95)',<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>titleFont: { size: 14, weight: 'bold'},<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>bodyFont: {size: 12},</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>titleColor: chartColors.blue,<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>bodyColor: chartColors.textDark,<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>borderColor: 'rgba(0,0,0,0.1)',<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>borderWidth: 1, padding: 12,</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>boxShadow: '0 4px 12px rgba(0,0,0,0.15)',</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>callbacks: {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>title: function(tooltipItems) {</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>const item = tooltipItems[0];<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                                </span>if (!item || !item.chart.data.labels) return '';</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>let label = item.chart.data.labels[item.dataIndex];</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>return Array.isArray(label) ? label.join(' ') : label;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                </span>scales: {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>y: {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>beginAtZero: true,<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>grid: { color: chartColors.gridLight },<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>ticks: { color: chartColors.textDark, font: { size: 10 } }<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>x: {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>grid: { display: false },<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>ticks: { color: chartColors.textDark, font: { size: 10 } }<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// --- Salary Charts (Not being replaced by this request) ---</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const salaryDataPage1 = {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>labels: ['Fresher', wrapText('Junior (1-3 năm)'), wrapText('Senior (3-5+ năm)')],</p>
+<p class="p1"><span class="Apple-converted-space">                </span>datasets: [</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ label: 'Kỹ sư CAD', data: [11.5, 20, 32.5], backgroundColor: chartColors.lightBlue, borderColor: chartColors.blue, borderWidth: 2, borderRadius: 6, barPercentage: 0.6, categoryPercentage: 0.7 },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ label: 'Kỹ sư CAE', data: [14, 24, 40], backgroundColor: chartColors.lightRed, borderColor: chartColors.red, borderWidth: 2, borderRadius: 6, barPercentage: 0.6, categoryPercentage: 0.7 }</p>
+<p class="p1"><span class="Apple-converted-space">                </span>]</p>
+<p class="p1"><span class="Apple-converted-space">            </span>};</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const salaryChartPage1Canvas = document.getElementById('salaryChartPage1');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (salaryChartPage1Canvas) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>new Chart(salaryChartPage1Canvas.getContext('2d'), { type: 'bar', data: salaryDataPage1, options: { ...commonChartOptionsPage1 } });</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const companyData = {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>vinfast: {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>name: "Vinfast",<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>logo: "https://placehold.co/150x80/0D6EFD/FFFFFF?text=VinFast&amp;font=bevietnampro",<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>details: `&lt;h4 class="text-2xl font-bold mb-4"&gt;VinFast&lt;/h4&gt;&lt;p class="mb-4 text-slate-700"&gt;Nhà sản xuất ô tô hàng đầu Việt Nam, đầu tư mạnh vào R&amp;D và ứng dụng CAD/CAE trong toàn bộ quá trình phát triển xe, đặc biệt là xe điện.&lt;/p&gt;&lt;ul class="space-y-2 list-disc list-inside text-slate-700"&gt;&lt;li&gt;&lt;span class="font-semibold"&gt;Đặc điểm:&lt;/span&gt; Cần người "làm được việc", ưu tiên kinh nghiệm thực tế.&lt;/li&gt;&lt;li&gt;&lt;span class="font-semibold"&gt;Cơ hội:&lt;/span&gt; Tiếp xúc công nghệ tiên tiến nhất, thu nhập xứng đáng với năng lực.&lt;/li&gt;&lt;li&gt;&lt;span class="font-semibold"&gt;Thách thức:&lt;/span&gt; Yêu cầu chuyên môn và áp lực cao.&lt;/li&gt;&lt;/ul&gt;`</p>
+<p class="p1"><span class="Apple-converted-space">                </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                </span>fpt: {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>name: "FPT Software (FGA)",</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>logo: "https://placehold.co/150x80/01559F/FFFFFF?text=FPT+Software&amp;font=bevietnampro",</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>details: `&lt;h4 class="text-2xl font-bold mb-4"&gt;FPT Software (FGA)&lt;/h4&gt;&lt;p class="mb-4 text-slate-700"&gt;Một trong những nhà tuyển dụng lớn nhất, cung cấp dịch vụ kỹ thuật và R&amp;D cho nhiều hãng xe lớn trên thế giới (Toyota, Nissan, Honda...).&lt;/p&gt;&lt;ul class="space-y-2 list-disc list-inside text-slate-700"&gt;&lt;li&gt;&lt;span class="font-semibold"&gt;Đặc điểm:&lt;/span&gt; Môi trường quốc tế, khách hàng đa dạng.&lt;/li&gt;&lt;li&gt;&lt;span class="font-semibold"&gt;Cơ hội:&lt;/span&gt; Cơ hội làm việc tại Nhật Bản, phát triển theo hướng quản lý.&lt;/li&gt;&lt;li&gt;&lt;span class="font-semibold"&gt;Thách thức:&lt;/span&gt; Thu nhập trung bình khá, đào tạo tại Việt Nam có thể chưa chuyên sâu bằng nơi khác.&lt;/li&gt;&lt;/ul&gt;`</p>
+<p class="p1"><span class="Apple-converted-space">                </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                </span>natv: {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>name: "NATV (Nissan)",</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>logo: "https://placehold.co/150x80/C3002F/FFFFFF?text=NATV&amp;font=bevietnampro",</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>details: `&lt;h4 class="text-2xl font-bold mb-4"&gt;NATV (Nissan Automotive Technology)&lt;/h4&gt;&lt;p class="mb-4 text-slate-700"&gt;Trung tâm kỹ thuật của Nissan, tập trung vào các hoạt động CAE cho xe của liên minh Nissan, Renault, Mitsubishi.&lt;/p&gt;&lt;ul class="space-y-2 list-disc list-inside text-slate-700"&gt;&lt;li&gt;&lt;span class="font-semibold"&gt;Đặc điểm:&lt;/span&gt; Môi trường đào tạo CAE bài bản.&lt;/li&gt;&lt;li&gt;&lt;span class="font-semibold"&gt;Cơ hội:&lt;/span&gt; Được đào tạo chuyên sâu, có cơ hội đi Nhật nâng cao tay nghề.&lt;/li&gt;&lt;li&gt;&lt;span class="font-semibold"&gt;Thách thức:&lt;/span&gt; Công việc bó hẹp trong ngành ô tô, thu nhập ở mức trung bình.&lt;/li&gt;&lt;/ul&gt;`</p>
+<p class="p1"><span class="Apple-converted-space">                </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>viettel: {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>name: "Viettel R&amp;D",</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>logo: "https://placehold.co/150x80/E10D20/FFFFFF?text=Viettel+R&amp;D&amp;font=bevietnampro",</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>details: `&lt;h4 class="text-2xl font-bold mb-4"&gt;Viettel R&amp;D&lt;/h4&gt;&lt;p class="mb-4 text-slate-700"&gt;Tập đoàn công nghiệp - viễn thông quân đội, có định hướng tự chủ công nghệ CAE, đầu tư vào máy móc và nhân lực chất lượng cao cho các dự án R&amp;D.&lt;/p&gt;&lt;ul class="space-y-2 list-disc list-inside text-slate-700"&gt;&lt;li&gt;&lt;span class="font-semibold"&gt;Đặc điểm:&lt;/span&gt; Muốn tự chủ công nghệ, đầu tư lớn, dự án bảo mật cao.&lt;/li&gt;&lt;li&gt;&lt;span class="font-semibold"&gt;Cơ hội:&lt;/span&gt; Tiếp xúc với các chuyên gia đầu ngành và các dự án lớn.&lt;/li&gt;&lt;li&gt;&lt;span class="font-semibold"&gt;Thách thức:&lt;/span&gt; Yêu cầu tuyển dụng rất cao, cần người "làm được việc".&lt;/li&gt;&lt;/ul&gt;`</p>
+<p class="p1"><span class="Apple-converted-space">                </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                </span>thaco: {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>name: "Thaco",</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>logo: "https://placehold.co/150x80/004A99/FFFFFF?text=THACO&amp;font=bevietnampro",</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>details: `&lt;h4 class="text-2xl font-bold mb-4"&gt;Thaco (Trường Hải Auto)&lt;/h4&gt;&lt;p class="mb-4 text-slate-700"&gt;Tập đoàn lớn trong ngành ô tô, có nhu cầu lớn về nhân lực CAD/CAE cho các hoạt động sản xuất, lắp ráp và phát triển sản phẩm.&lt;/p&gt;&lt;ul class="space-y-2 list-disc list-inside text-slate-700"&gt;&lt;li&gt;&lt;span class="font-semibold"&gt;Đặc điểm:&lt;/span&gt; Quy mô lớn, muốn tự chủ công việc CAE.&lt;/li&gt;&lt;li&gt;&lt;span class="font-semibold"&gt;Cơ hội:&lt;/span&gt; Môi trường làm việc ổn định, nhiều mảng sản phẩm.&lt;/li&gt;&lt;li&gt;&lt;span class="font-semibold"&gt;Thách thức:&lt;/span&gt; Tương tự Vinfast, ưu tiên ứng viên có kinh nghiệm.&lt;/li&gt;&lt;/ul&gt;`</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const companyGrid = document.getElementById('company-grid');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (companyGrid) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Object.keys(companyData).forEach(key =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const company = companyData[key];</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const companyCard = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>companyCard.className = 'company-logo-container';<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>companyCard.innerHTML = `&lt;img src="${company.logo}" alt="${company.name} Logo" title="${company.name}"&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>companyCard.addEventListener('click', () =&gt; openCompanyModal(company.details));</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>companyGrid.appendChild(companyCard);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const modal = document.getElementById('modal');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const modalContentInner = document.getElementById('modal-content-inner');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>function openCompanyModal(content) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if(modal &amp;&amp; modalContentInner) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>modalContentInner.innerHTML = content + '&lt;button id="close-modal" class="btn-primary mt-6 w-full"&gt;Đóng&lt;/button&gt;';</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>modal.classList.add('visible');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const closeModalButton = document.getElementById('close-modal');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if(closeModalButton) {</p>
+<p class="p1"><span class="Apple-converted-space">                       </span>closeModalButton.addEventListener('click', closeCompanyModal);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>function closeCompanyModal() {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>if(modal) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>modal.classList.remove('visible');</p>
+<p class="p1"><span class="Apple-converted-space">                     </span>if(modalContentInner) modalContentInner.innerHTML = '';<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (modal) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>modal.addEventListener('click', (e) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if (e.target === modal) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>closeCompanyModal();</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">                </span>window.addEventListener('keydown', (e) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if (e.key === 'Escape' &amp;&amp; modal.classList.contains('visible')) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>closeCompanyModal();</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const salaryFactors = {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>experience: "Đây là yếu tố quan trọng nhất. Kinh nghiệm thực tế qua các dự án càng nhiều, chuyên môn càng sâu thì mức lương càng cao. Các nhà tuyển dụng sẵn sàng trả lương cao cho các chuyên gia có thành tích.",</p>
+<p class="p1"><span class="Apple-converted-space">                </span>company: "Các công ty FDI và tập đoàn lớn thường có chính sách lương thưởng và đãi ngộ tốt hơn các công ty nhỏ. Tuy nhiên, các công ty tư nhân chuyên sâu, công ty startup công nghệ cao vẫn có thể trả lương rất cao cho nhân tài.",</p>
+<p class="p1"><span class="Apple-converted-space">                </span>industry: "Các ngành 'nóng' như R&amp;D ô tô (đặc biệt xe điện, xe tự hành), hàng không vũ trụ, thiết bị y tế, năng lượng tái tạo thường có tiềm năng thu nhập vượt trội do đòi hỏi kỹ thuật cao và tính tiên phong.",</p>
+<p class="p1"><span class="Apple-converted-space">                </span>language: "Thành thạo ngoại ngữ (đặc biệt là tiếng Anh, tiếng Nhật, tiếng Hàn) là lợi thế cực lớn, giúp tiếp cận các vị trí lương cao tại công ty FDI, các dự án quốc tế và dễ dàng thăng tiến hơn. Kỹ năng mềm như giao tiếp, làm việc nhóm, giải quyết vấn đề cũng đóng góp vào sự phát triển sự nghiệp.",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>};</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const factorsInfoDiv = document.getElementById('salary-factors-info');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const factorsButtonsContainer = document.getElementById('salary-factors-buttons');</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (factorsButtonsContainer &amp;&amp; factorsInfoDiv) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>factorsButtonsContainer.addEventListener('click', (e) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const button = e.target.closest('button');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if(button &amp;&amp; button.dataset.factor) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>const factor = button.dataset.factor;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>factorsInfoDiv.innerHTML = `&lt;p class="text-slate-700 text-sm md:text-base"&gt;${salaryFactors[factor]}&lt;/p&gt;`;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>factorsButtonsContainer.querySelectorAll('button').forEach(btn =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>btn.classList.remove('active');<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>button.classList.add('active');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const firstFactorButton = factorsButtonsContainer.querySelector('button');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (firstFactorButton) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>firstFactorButton.click();</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const marketSalaryChartCanvas = document.getElementById('marketSalaryChart');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (marketSalaryChartCanvas) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const ctxMarketSalary = marketSalaryChartCanvas.getContext('2d');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>new Chart(ctxMarketSalary, {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>type: 'bar',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>data: {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>labels: ['Mới ra trường / &lt; 1 năm', '1 - 3 năm (Junior)', '3 - 5 năm (Mid-level)', '&gt; 5 năm (Senior/Expert)'],</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>datasets: [{</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>label: 'Lương tối thiểu (Triệu VNĐ/tháng)',</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>data: [8, 15, 25, 40],<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>backgroundColor: 'rgba(13, 110, 253, 0.6)',<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>borderColor: chartColors.blue,</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>borderWidth: 1,</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>borderRadius: 5,</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>}, {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>label: 'Lương tối đa (Triệu VNĐ/tháng)',</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>data: [20, 35, 60, 90],<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>backgroundColor: 'rgba(220, 53, 69, 0.6)',<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>borderColor: chartColors.red,</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>borderWidth: 1,</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>borderRadius: 5,</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>}]</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>options: {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>...commonChartOptionsPage1,<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>scales: {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>y: {</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>...commonChartOptionsPage1.scales.y,</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>title: { display: true, text: 'Mức lương (Triệu VNĐ / tháng)', color: chartColors.textDark, font:{size:12, weight:'500'} }</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>x: {</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>...commonChartOptionsPage1.scales.x,</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>title: { display: true, text: 'Cấp độ kinh nghiệm', color: chartColors.textDark, font:{size:12, weight:'500'} }</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>plugins: {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>...commonChartOptionsPage1.plugins,<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>tooltip: {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                                </span>...commonChartOptionsPage1.plugins.tooltip,</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>callbacks: {</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>...commonChartOptionsPage1.plugins.tooltip.callbacks,<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>label: function(context) {</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>let label = context.dataset.label || '';</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>if (label) { label += ': '; }</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>if (context.parsed.y !== null) {</p>
+<p class="p1"><span class="Apple-converted-space">                                            </span>label += new Intl.NumberFormat('vi-VN').format(context.parsed.y) + ' Tr';</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>return label;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>title: {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                                </span>display: true,</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>text: 'Khoảng Lương Tham Khảo Theo Kinh Nghiệm Thị Trường',</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>font: { size: 14, weight: 'bold' },</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>color: chartColors.textDark,</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>padding: { top: 10, bottom: 20 }</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// --- NEW CHART SCRIPT FROM USER ---</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const newCadJobsData = {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>labels: ['Thiết kế Cơ khí', 'Mô hình 3D', 'Bản vẽ Kỹ thuật', 'Draftsman', 'CAD Customization'],</p>
+<p class="p1"><span class="Apple-converted-space">                </span>datasets: [{</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>label: 'Số lượng vị trí',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>data: [120, 90, 75, 60, 40],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>hoverOffset: 4</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}]</p>
+<p class="p1"><span class="Apple-converted-space">            </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const newCaeJobsData = {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>labels: ['Phân tích Kết cấu (FEA)', 'Mô phỏng Động lực học (CFD)', 'Phân tích Độ bền', 'Tối ưu hóa Thiết kế', 'Mô phỏng Va chạm'],</p>
+<p class="p1"><span class="Apple-converted-space">                </span>datasets: [{</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>label: 'Số lượng vị trí',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>data: [100, 85, 70, 55, 30],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>backgroundColor: ['#FF9F40', '#8D6E63', '#4CAF50', '#E91E63', '#00BCD4'],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>hoverOffset: 4</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}]</p>
+<p class="p1"><span class="Apple-converted-space">            </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Chart Configuration (from user's new script)</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// This newChartConfig is more specific to the doughnut charts and their simpler legend/tooltip needs.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const newChartConfig = (chartType = 'doughnut') =&gt; ({</p>
+<p class="p1"><span class="Apple-converted-space">                </span>type: chartType,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>options: {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>responsive: true,</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>maintainAspectRatio: false,</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>plugins: {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>legend: {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>position: 'bottom',</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>labels: {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                                </span>padding: 20,<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                                </span>font: { size: 11 } // Adjusted font size slightly</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>tooltip: {<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>enabled: true,</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>backgroundColor: 'rgba(0,0,0,0.7)', // Example of different tooltip style</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>titleFont: {size: 13},</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>bodyFont: {size: 11},</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>titleColor: 'white',</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>bodyColor: 'white',</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>padding: 10</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const cadCtxNew = document.getElementById('cadJobsChart');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (cadCtxNew) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>new Chart(cadCtxNew.getContext('2d'), {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>...newChartConfig('doughnut'),</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>data: newCadJobsData,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const caeCtxNew = document.getElementById('caeJobsChart');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (caeCtxNew) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>new Chart(caeCtxNew.getContext('2d'), {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>...newChartConfig('doughnut'),</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>data: newCaeJobsData,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// --- END OF NEW CHART SCRIPT ---</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>}); // MAIN DOMContentLoaded WRAPPER END</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
